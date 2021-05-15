@@ -1,19 +1,16 @@
-h1{
-    font-size: 10px;
-    color:rgb(35, 0, 255);
+
+/* NAVBAR */
+.navbar{
+height: 6em;
 }
 
-a{
-    color:rgb(224, 6, 6);
-    text-align: center;
-    font-family: Arial;
-    font-size: 20px;
+.nav-wrapper{
+    padding: 1em;
 }
 
-body{
-    background-color: rgb(97, 159, 179);
+.sidenav #logo-mobile{
+    margin-left: 100px;
 }
 
-header div{
-    color: brown;
-}
+/* FIM NAVBAR */
+
