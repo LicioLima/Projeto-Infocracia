@@ -1,13 +1,17 @@
-h1 {
-    font size: 10em
-    color: #ff0;
-    color: #FFFF00;
+
+
+/* NAVBAR */
+.navbar{
+height: 6em;
 }
 
-body{
-    background-color: bisque;
+.nav-wrapper{
+    padding: 1em;
 }
 
-header div{
-    color: brown;
+.sidenav #logo-mobile{
+    margin-left: 100px;
 }
+
+/* FIM NAVBAR */
+
