@@ -17,6 +17,24 @@ height: 6em;
 
 /* Grid */
 
+.img{
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* Vídeo */
+.video-container{
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 768px;
+  padding: 300px;
+}
+
+
+/* Fim do Vídeo*/
+
 
 
 
