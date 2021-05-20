@@ -32,18 +32,18 @@ height: 6em;
 .video-container{
   margin-left: auto;
   margin-right: auto;
-  min-width: 768px;
-  padding: 300px;
+  min-width: 750px;
+  padding: 220px;
 }
+/*Fim do Vídeo*/
 
-
-/* Fim do Vídeo*/
-
-
-
+/* Cards */
+.id#cards{
+  float: left;
+}
+/* Fim dos Cards */
 
 /* footer */
-
 body {
     display: flex;
     min-height: 100vh;
