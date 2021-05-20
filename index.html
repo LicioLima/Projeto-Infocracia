@@ -36,7 +36,7 @@
 <!--Navbar-->
 <section id="navegation">
   <header>
-    <div class="navbar-fixed z-depth-3" >
+    <div class="navbar z-depth-3" >
         <nav class="navbar cyan darken-2">
             <div class="nav-wrapper">
               <a id="logo" href="#!" class="brand-logo"> INFOCRACIA <i class="material-icons medium"> public</i> </a>
@@ -62,8 +62,8 @@
           <li><a href="badges.html"> <i class="material-icons right"> live_help</i>O QUE FAZEMOS</a></li>
           <li><a href="collapsible.html"> <i class="material-icons right"> badge</i>QUEM SOMOS</a></li>
           <li><a class="waves-effect waves-light btn blue">CADASTRE-SE <i class="material-icons right">account_box</i></a></li>
-          <li><a class="waves-effect waves-light btn green">Entrar <i class="material-icons right">account_box</i></a></li>
-          </ul>
+          <li><a class="waves-effect waves-light btn green"> Entrar <i class="material-icons right">account_box</i></a></li>
+        </ul>
     </div>
      <!--Fim Menu Mobile-->
 
@@ -85,11 +85,96 @@
 
     <!--Footer-->
 
+          <!--Carousel-->
+          <br>
+          <div class="container">
+            <div class="hoverable">
+              <div class="carousel carousel-slider" style="width: auto; margin-left: auto; margin-right: auto;">
+                <a class="carousel-item" href="#one!"><img src="imagem/1.jpeg"></a>
+                <a class="carousel-item" href="#two!"><img src="imagem/2.jpeg"></a>
+                <a class="carousel-item" href="#three!"><img src="imagem/3.jpeg"></a>
+                <a class="carousel-item" href="#four!"><img src="imagem/4.jpeg"></a>
+              </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--link para vincular o jquery-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><!--link para vincular o javascript do materialize-->
+        
+          </div>
+          
+          <script>
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+          </script>
+          <!--Fim do Carousel-->
+
+          <!--divisório-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--fim do divisório-->
+
+          <!-- Cards -->
+        <div class="container"> 
+          <div class="card-panel hoverable valign-wrapper center-align">
+            <div class="row">
+              <div class="col s12 m6 l12">
+                <div class="card hoverable cyan darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m6 l12">
+                <div class="card hoverable cyan darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+          <!-- Cards -->
+
+          <!--divisório-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--fim do divisório-->
+
+       <!--Vídeo-->
+       <div class="container">
+      </div>
+      <div class="row">
+        <div class="col s6 m6 l12 offset-l2">
+         <div class="video-container">
+           <iframe style="width: 500px; height: 380px;"  src="https://www.youtube.com/embed/90N6xRU58Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        </div>
+      
+       </div>
+        
+      <br>
+      <!--Fim do Vídeo-->
+
+    <!--Footer-->
 <section id="rodape">
   <footer class="page-footer cyan darken-2">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
+        <div class="col 16 s12">
           <h5 class="white-text">CONTATE-NOS</h5>
           <p class="grey-text text-lighten-4"> <i class="material-icons left">forward_to_inbox</i>infocracia@gmail.com</p>
         </div>
@@ -112,6 +197,10 @@
 </section>
 
     
+        <!--FIM Footer-->
+
+
+
 <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
