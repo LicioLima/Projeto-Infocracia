@@ -63,7 +63,7 @@
           <li><a href="collapsible.html"> <i class="material-icons right"> badge</i>QUEM SOMOS</a></li>
           <li><a class="waves-effect waves-light btn blue">CADASTRE-SE <i class="material-icons right">account_box</i></a></li>
           <li><a class="waves-effect waves-light btn green"> Entrar <i class="material-icons right">account_box</i></a></li>
-          </ul>
+        </ul>
     </div>
      <!--Fim Menu Mobile-->
 
@@ -74,15 +74,25 @@
             <a class="carousel-item" href="#three!"><img src="imagem/noticia3.jpeg"></a>
             <a class="carousel-item" href="#four!"><img src="imagem/noticia4.jpeg"></a>
             <a class="carousel-item" href="#five!"><img src="imagem/noticia5.jpeg"></a>
+          <br>
+          <div class="container">
+            <div class="hoverable">
+              <div class="carousel carousel-slider" style="width: auto; margin-left: auto; margin-right: auto;">
+                <a class="carousel-item" href="#one!"><img src="imagem/1.jpeg"></a>
+                <a class="carousel-item" href="#two!"><img src="imagem/2.jpeg"></a>
+                <a class="carousel-item" href="#three!"><img src="imagem/3.jpeg"></a>
+                <a class="carousel-item" href="#four!"><img src="imagem/4.jpeg"></a>
+              </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--link para vincular o jquery-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><!--link para vincular o javascript do materialize-->
+        
           </div>
           
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--link para vincular o jquery-->
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><!--link para vincular o javascript do materialize-->
-      
           <script>
-            $(document).ready(function() {
-              $('.carousel').carousel();
-            });
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
           </script>
           <!--Fim do Carousel-->
 
@@ -96,10 +106,23 @@
                     <span class="card-title"></span>
                   </div>
                   <div class="card-content">
+          <!--divisório-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--fim do divisório-->
+
+          <!-- Cards -->
+        <div class="container"> 
+          <div class="card-panel hoverable valign-wrapper center-align">
+            <div class="row">
+              <div class="col s12 m6 l12">
+                <div class="card hoverable cyan darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
                     <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
                   </div>
                   <div class="card-action">
+                    <a href="#">This is a link</a>
                     <a href="#">This is a link</a>
                   </div>
                 </div>
@@ -113,10 +136,15 @@
                     <span class="card-title"></span>
                   </div>
                   <div class="card-content">
+              <div class="col s12 m6 l12">
+                <div class="card hoverable cyan darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
                     <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
                   </div>
                   <div class="card-action">
+                    <a href="#">This is a link</a>
                     <a href="#">This is a link</a>
                   </div>
                 </div>
@@ -132,10 +160,25 @@
           <!--Fim da Divisória-->
 
           
+        </div>   
+          <!-- Cards -->
+
+          <!--divisório-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--fim do divisório-->
+
        <!--Vídeo-->
-       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/90N6xRU58Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <div class="container">
       </div>
+      <div class="row">
+        <div class="col s6 m6 l12 offset-l2">
+         <div class="video-container">
+           <iframe style="width: 500px; height: 380px;"  src="https://www.youtube.com/embed/90N6xRU58Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+        </div>
+      
+       </div>
+        
       <br>
       <!--Fim do Vídeo-->
 
@@ -144,7 +187,7 @@
   <footer class="page-footer cyan darken-2">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col 16 s12">
           <h5 class="white-text">CONTATE-NOS</h5>
           <p class="grey-text text-lighten-4"> <i class="material-icons left">forward_to_inbox</i>infocracia@gmail.com</p>
         </div>
