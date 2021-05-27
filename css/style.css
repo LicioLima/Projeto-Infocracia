@@ -47,3 +47,179 @@ body {
     flex: 1 0 auto;
   }
   /* FIM do Footer */
+   
+  /* INICIO do lOGIN/CADASTRO */
+
+
+  body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+  
+  }
+  
+  .form{
+    width:400px;
+    margin:auto;
+    padding-top:40px;
+  
+  }
+  
+  .card{
+    box-shadow: 1px 1px 30px #008b8b;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .card-top{
+    text-align: center;
+  }
+  
+  .imglogin{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 1px 1px 20px #008b8b;
+  }
+  
+  .titulo{
+    color:#008b8b;
+  }
+  
+  .subtitulo{
+    color:black;
+  }
+  
+  .card-group{
+    margin-bottom: 10px;
+  }
+  
+  .card-group > label{
+    width: 100%;
+    color: black;
+    display: block;
+  }
+  
+  .card-group > input{
+    border-radius: 5px;
+    outline: 1;
+    outline-color: #008b8b;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+  }
+  
+  .card-group > button{
+    background-image: linear-gradient(to right, #20B2AA, #4682B4);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: black;
+    border: 0px;
+    outline: 0;
+    box-shadow: 1px 1px 10px #008b8b;
+  }
+  
+  .card-group-sexo{
+    text-align: center;
+  }
+  
+  .radio-sexo{
+    display: flex; 
+    flex-direction: column;
+    margin: 2% auto; 
+    text-align: left; 
+    font-weight: normal;
+  }
+  
+  .termos{
+    text-align: left;
+    margin: 3% auto;
+  }
+  
+  .btn button:hover{
+    background-image: linear-gradient(to right, #4682B4, #20B2AA);
+  
+  }
+   /* FIM do lOGIN/CADASTRO */
+
+
+/* INICIO do SENHA */
+
+
+   body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+  
+  }
+  
+  .form{
+    width:400px;
+    margin:auto;
+    padding-top:40px;
+  
+  }
+  
+  .card{
+    box-shadow: 1px 1px 30px #008b8b;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .card-top{
+    text-align: center;
+  }
+  
+  .imglogin{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 1px 1px 20px #008b8b;
+  }
+  
+  .titulo{
+    color:#008b8b;
+  }
+  
+  .subtitulo{
+    color:black;
+    text-align: left;
+  }
+  
+  .card-group-email{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card-group-email > label{
+    width: 100%;
+    color: black;
+    display: block;
+    text-align: center;
+  }
+  
+  .card-group-email > input{
+    border-radius: 5px;
+    outline: 1;
+    outline-color: #008b8b;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .card-button-password > button{
+    background-image: linear-gradient(to right, #20B2AA, #4682B4);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: black;
+    border: 0px;
+    outline: 0;
+    text-align: center;
+    box-shadow: 1px 1px 10px #008b8b;
+  }
+  
+  .card-button-password button:hover{
+    background-image: linear-gradient(to right, #4682B4, #20B2AA);
+  }
+  /* FIM do SENHA */
