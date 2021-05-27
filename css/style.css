@@ -1,4 +1,49 @@
-h1 {
-    font size: 10em
-    color: #ff0;
+/* NAVBAR */
+.navbar{
+height: 6em;
 }
+
+.nav-wrapper{
+    padding: 1em;
+}
+
+.sidenav #logo-mobile{
+    margin-left: 100px;
+}
+/* FIM NAVBAR */
+
+/* Grid */
+.img{
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Fim do Grid */
+
+/* Vídeo */
+.video-container{
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 750px;
+  padding: 220px;
+}
+/*Fim do Vídeo*/
+
+/* Cards */
+.id#cards{
+  float: left;
+}
+/* Fim dos Cards */
+
+/* Footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #eeeded;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  /* FIM do Footer */
