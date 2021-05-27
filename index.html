@@ -44,14 +44,15 @@
                 <li><a href="sass.html"> <i class="material-icons right">email</i> CONTATO</a></li>
                 <li><a href="badges.html"> <i class="material-icons right"> live_help</i>O QUE FAZEMOS</a></li>
                 <li><a href="collapsible.html"> <i class="material-icons right"> badge</i>QUEM SOMOS</a></li>
-                <li><a class="waves-effect waves-light btn blue">CADASTRE-SE <i class="material-icons right">account_box</i></a></li>
-                <li><a class="waves-effect waves-light btn green">Entrar <i class="material-icons right">account_box</i></a></li>
+                <li><a href="cadastro.html"  class="waves-effect waves-light btn blue">CADASTRE-SE <i class="material-icons right">account_box</i></a></li>
+                <li><a href="login.html" class="waves-effect waves-light btn green">Entrar <i class="material-icons right">account_box</i></a></li>
               </ul>
             </div>
           </nav>
   </header>
 </section>
         <!-- Fim Navbar-->
+
 
     <!--Menu Mobile-->
     <div class="container">
@@ -66,63 +67,120 @@
     </div>
      <!--Fim Menu Mobile-->
 
-          <!--Carousel-->
 
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="imagem/noticia1.jpeg"></a>
-            <a class="carousel-item" href="#two!"><img src="imagem/noticia2.jpeg"></a>
-            <a class="carousel-item" href="#three!"><img src="imagem/noticia3.jpeg"></a>
-            <a class="carousel-item" href="#four!"><img src="imagem/noticia4.jpeg"></a>
-            <a class="carousel-item" href="#five!"><img src="imagem/noticia5.jpeg"></a>
-        </div>
+          <!--Carousel-->
+          <br>
+          <div class="container">
+            <div class="hoverable">
+              <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="imagem/1.jpeg"></a>
+                <a class="carousel-item" href="#two!"><img src="imagem/2.jpeg"></a>
+                <a class="carousel-item" href="#three!"><img src="imagem/3.jpeg"></a>
+                <a class="carousel-item" href="#four!"><img src="imagem/4.jpeg"></a>
+              </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--link para vincular o jquery-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> <!--link para vincular o javascript do materialize-->
+          </div>
           
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--link para vincular o jquery-->
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><!--link para vincular o javascript do materialize-->
-      
           <script>
-            $(document).ready(function() {
-              $('.carousel').carousel();
-            });
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
           </script>
           <!--Fim do Carousel-->
 
+
+          <!--1º Divisor-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--Fim do 1º Divisor-->
+
+
+          <!-- Cards -->
+        <div class="container"> 
+          <div class="card-panel hoverable valign-wrapper center-align">
+            <div class="row">
+              <div class="col s12 m7">
+                <div class="card cyan darken-2">
+                  <div class="card-image">
+                    <img src="img/Urna Eletrônica.jpg">
+                    <span class="card-title"></span>
+                  </div>
+                  <div class="card-content">
+                    <p>Você conhece a história sobre a urna brasileira? Clique no link abaixo e saiba um pouco mais sobre essa incrível invenção brasileira.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://www.tecmundo.com.br/mercado/134805-historia-urna-eletronica-eleicoes-brasil-video.htm"> Clique Aqui! </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m7">
+                <div class="card cyan darken-2">
+                  <div class="card-image">
+                    <img src="img/Senadores.jpg">
+                    <span class="card-title"></span>
+                  </div>
+                  <div class="card-content">
+                    <p> Você sabia que o mandato de um senador brasileiro pode durar até 8 anos? 😱 E que são 3 por estado? Se tem curiosidade sobre como eles são eleitos, é só clicar no link abaixo e se informar. </p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://www.politize.com.br/senadores-como-sao-eleitos/"> Clique Aqui! </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+          <!-- Fim dos Cards -->
+
+
+          <!--2º Divisor-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--Fim do 2º Divisor-->
+
+
        <!--Vídeo-->
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/90N6xRU58Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <div class="container">
+      </div>
+      <div class="row">
+        <div class="col s6 m6 l12 offset-l2">
+         <div class="video-container">
+           <iframe style="width: 500px; height: 380px;"  src="https://www.youtube.com/embed/90N6xRU58Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
         </div>
+       </div>
       <br>
       <!--Fim do Vídeo-->
 
     <!--Footer-->
-
-<section id="rodape">
-  <footer class="page-footer cyan darken-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">CONTATE-NOS</h5>
-          <p class="grey-text text-lighten-4"> <i class="material-icons left">forward_to_inbox</i>infocracia@gmail.com</p>
+    <section id="rodape">
+      <footer class="page-footer cyan darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Contato</h5>
+              <p class="grey-text text-lighten-4"> <i class="material-icons left">forward_to_inbox</i>infocracia@gmail.com</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Mídias</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons left">alternate_email</i>infocracia/twitter.com</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons left">photo_camera</i>infocracia/instagram.com</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons left">facebook</i>infocracia/facebook.com</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Mídias</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!"> <i class="material-icons left">alternate_email</i>infocracia/twitter.com</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!"> <i class="material-icons left">photo_camera</i>infocracia/instagram.com</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons left">facebook</i>infocracia/facebook.com</a></li>
-          </ul>
+        <div class="footer-copyright">
+          <div class="container">
+          Copyright  © 2021 INFOCRACIA. Todos os direitos reservados.
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Copyright  © 2021 INFOCRACIA. Todos os direitos reservados.
-      </div>
-    </div>
-  </footer>
-</section>
-    
-    <!--FIM Footer-->
-
+      </footer>
+    </section>
+<!--FIM Footer-->
 
 
 <!--Scripts-->
@@ -147,4 +205,7 @@
     </script>
            <!--Fim init menu-mobile-->
 </body>
+</html>
+
+
 </html>
