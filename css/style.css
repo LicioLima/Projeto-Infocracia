@@ -110,7 +110,10 @@ body {
     height: 25px;
     padding: 5px;
   }
-  
+  .link{
+    font-size: small;
+    
+  }
   
   .card-group > button{
     background-image: linear-gradient(to right, #20B2AA, #4682B4);
