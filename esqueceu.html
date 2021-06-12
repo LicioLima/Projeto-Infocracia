@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="">
+	<title>Esqueceu senha</title>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+
+</head>
+<body>
+	<form class="form" action="login.html">		
+		<div class="card">
+			<div class="card-top">
+				<img class="imglogin" src="imagem/infocracia.jpg" alt="">
+				<h2 class="titulo">Esqueceu a Senha</h2>
+				<p class="subtitulo">Insira seu email abaixo para recuperação de senha:</p>					
+			</div>
+			
+			<div class="card-group-email">				
+				<input type="email" name="email" placeholder="Email" required>
+			</div>
+		
+			<div class="card-button-password">				
+				<button type="submit" onclick="emailAlert()" value="AlertEmail" href="login.html">Recuperar Senha</button>
+			</div>
+
+		</div>
+	</form> 
+</body>
+</html>
+
+<script>
+		function emailAlert()
+		{
+		alert("Verifique seu email!");
+		}
+</script>

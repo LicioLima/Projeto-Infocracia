@@ -1,30 +1,208 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFOCRACIA</title>
+
+    <!--Fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Fim Fonte-->
+
+    <!--Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Fim Materialize-->
+
+     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
+     <!--Fim CSS-->
+
+    </script>
+
+    <!--Fonte Awesome-->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    </script>
+
+    <title>INFOCRACIA</title>
+
 </head>
+
 <body>
-    <header> 
-        <h1>Projeto Infocracia </h1>
-    </header>
-<<<<<<< Updated upstream
-    <h1> teste </h1>
-         
-=======
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi molestiae voluptatum maxime expedita minima facere officia qui, alias assumenda temporibus deserunt aliquam officiis ratione error aut perferendis esse possimus numquam?
-    <h2>Cabeça de cisterna</h2>
+<!--Navbar-->
+<section id="navegation">
+  <header>
+    <div class="navbar z-depth-3" >
+        <nav class="navbar cyan darken-2">
+            <div class="nav-wrapper">
+              <a id="logo" href="#!" class="brand-logo"> INFOCRACIA <i class="material-icons medium"> public</i> </a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html"> <i class="material-icons right">email</i> CONTATO</a></li>
+                <li><a href="badges.html"> <i class="material-icons right"> live_help</i>O QUE FAZEMOS</a></li>
+                <li><a href="collapsible.html"> <i class="material-icons right"> badge</i>QUEM SOMOS</a></li>
+                <li><a href="cadastro.html"  class="waves-effect waves-light btn blue">CADASTRE-SE <i class="material-icons right">account_box</i></a></li>
+                <li><a href="login.html" class="waves-effect waves-light btn green">Entrar <i class="material-icons right">account_box</i></a></li>
+              </ul>
+            </div>
+          </nav>
+  </header>
+</section>
+        <!-- Fim Navbar-->
 
-    <link rel="stylesheet" href="it's time to burn baby">
 
-    <p>a vida é um eterno pé de manga rsrs</p>
+    <!--Menu Mobile-->
+    <div class="container">
+        <ul class="sidenav" id="mobile-demo">
+          <a id="logo" href="#!" class="brand-logo"> <i id="logo-mobile" class="material-icons medium"> public</i> </a>
+          <li><a href="sass.html"> <i class="material-icons right">email</i> CONTATO</a></li>
+          <li><a href="badges.html"> <i class="material-icons right"> live_help</i>O QUE FAZEMOS</a></li>
+          <li><a href="collapsible.html"> <i class="material-icons right"> badge</i>QUEM SOMOS</a></li>
+          <li><a class="waves-effect waves-light btn blue">CADASTRE-SE <i class="material-icons right">account_box</i></a></li>
+          <li><a class="waves-effect waves-light btn green"> Entrar <i class="material-icons right">account_box</i></a></li>
+        </ul>
+    </div>
+     <!--Fim Menu Mobile-->
 
 
->>>>>>> Stashed changes
+          <!--Carousel-->
+          <br>
+          <div class="container">
+            <div class="hoverable">
+              <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="imagem/1.jpeg"></a>
+                <a class="carousel-item" href="#two!"><img src="imagem/2.jpeg"></a>
+                <a class="carousel-item" href="#three!"><img src="imagem/3.jpeg"></a>
+                <a class="carousel-item" href="#four!"><img src="imagem/4.jpeg"></a>
+              </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--link para vincular o jquery-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> <!--link para vincular o javascript do materialize-->
+          </div>
+          
+          <script>
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  }, setTimeout(autoplay, 4500));
+  function autoplay() {
+   $('.carousel').carousel('next');
+   setTimeout(autoplay, 4500);
+ }
+          </script>
+          <!--Fim do Carousel-->
+
+
+          <!--1º Divisor-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--Fim do 1º Divisor-->
+
+
+          <!-- Cards -->
+        <div class="container"> 
+          <div class="hoverable center-align">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="card hoverable cyan darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">A história da urna eletrônica e das eleições</span>
+                    <p>Você conhece a história sobre a urna brasileira? Clique no link abaixo e saiba um pouco mais sobre essa incrível invenção brasileira   .</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://www.tecmundo.com.br/mercado/134805-historia-urna-eletronica-eleicoes-brasil-video.htm">Clique aqui!</a>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="card hoverable cyan darken-2">
+                  <div class="card-content white-text">
+                    <span class="card-title">Como são eleitos os senadores no Brasil    ?</span>
+                    <p>Você sabia que o mandato de um senador brasileiro pode durar até 8 anos? E que são 3 por estado? Só clicar no link abaixo e se informar.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://www.politize.com.br/senadores-como-sao-eleitos/">Clique aqui!</a>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+          <!-- Fim dos Cards -->
+
+
+          <!--2º Divisor-->
+          <div class="card cyan darken-2"> <h3></h3> </div>
+          <!--Fim do 2º Divisor-->
+
+
+       <!--Vídeo-->
+       <div class="container">
+          <div class="video-container">
+           <iframe width= "500" height= "380" src="https://www.youtube.com/embed/90N6xRU58Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div> 
+
+      <br>
+      <!--Fim do Vídeo-->
+
+    <!--Footer-->
+    <section id="rodape">
+      <footer class="page-footer cyan darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Contato</h5>
+              <p class="grey-text text-lighten-4"> <i class="material-icons left">forward_to_inbox</i>infocracia@gmail.com</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Mídias</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons left">alternate_email</i>infocracia/twitter.com</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons left">photo_camera</i>infocracia/instagram.com</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons left">facebook</i>infocracia/facebook.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          Copyright  © 2021 INFOCRACIA. Todos os direitos reservados.
+          </div>
+        </div>
+      </footer>
+    </section>
+<!--FIM Footer-->
+
+
+<!--Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/global.js"></script>
+
+           <!--Init menu-mobile-->
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+    </script>
+           <!--Fim init menu-mobile-->
 </body>
-<script>"text/javascript" src="js/global.js"</script>
+</html>
+
 
 </html>
