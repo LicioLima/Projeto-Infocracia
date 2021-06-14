@@ -33,4 +33,9 @@ body {
     flex: 1 0 auto;
   }
   /* FIM do Footer */
+
+ .card-content{
+   font-size: 14px;
+   font-style:unset;
+ } 
    
