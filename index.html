@@ -88,19 +88,7 @@
     <!--link para vincular o javascript do materialize-->
   </div>
 
-  <script>
-    $('.carousel.carousel-slider').carousel({
-      fullWidth: true
-    }, setTimeout(autoplay, 4500));
-
-    function autoplay() {
-      $('.carousel').carousel('next');
-      setTimeout(autoplay, 4500);
-    }
-  </script>
   <!--Fim do Carousel-->
-
-
 
 
     <!--1º Divisor-->
@@ -114,13 +102,14 @@
   <div class="row container hoverable center-align ">
     <section class="col s12 m6 l9 ">
       <h5 class="light">CONTEÚDOS</h5>
-      <article class="col s12 l6 xl3">
+      <article class="col s12 l6">
         <div class="card card hoverable cyan darken-2">
           <div class="card-image">
             <img src="./imagem/senado1.jpg">
           </div>
           <div class="card-content white-text ">
-            <p>Você sabia que o mandato de um senador brasileiro dura 8 anos? Se quiser saber mais, clique no link abaixo</p>
+            <p>Você sabia que o mandato de um senador brasileiro dura 8 anos?
+            </br> Saiba mais clicando no link abaixo</p>
           </div>
           <div class="card-action">
             <a href="https://www.politize.com.br/senado-como-funciona/" class="waves-effect waves-light btn">CLIQUE AQUI</a>
@@ -128,13 +117,13 @@
         </div>
       </article>
 
-      <article class="col s12 l6 xl3">
+      <article class="col s12 l6">
         <div class="card card hoverable cyan darken-2">
           <div class="card-image">
             <img src="./imagem/urna-eletronica (1).jpg">
           </div>
           <div class="card-content white-text">
-            <p>Sistema eleitoral brasileiro:</br> você sabe como são eleitos os políticos? Saiba mais clicando no link abaixo.</p>
+            <p>Sistema eleitoral brasileiro:</br> você sabe como são eleitos os políticos? </br> Saiba mais clicando no link abaixo.</p>
           </div>
           <div class="card-action">
             <a href="https://www.politize.com.br/sistema-eleitoral-brasileiro/" class="waves-effect waves-light btn">CLIQUE AQUI</a>
@@ -142,14 +131,14 @@
         </div>
       </article>
 
-      <article class="col s12 l6 xl3">
+      <article class="col s12 l6">
         <div class="card card hoverable cyan darken-2">
           <div class="card-image">
             <img src="./imagem/comissao (1).jpeg">
           </div>
           <div class="card-content white-text">
-            <p>Saiba sobre as comissões parlamentares: <br>  o que são e como funcionam?
-              Informe-se clicando no link abaixo.</p>
+            <p>Saiba sobre as comissões parlamentares: <br> como funcionam?
+              <p>Saiba mais clicando no link abaixo</p>
           </div>
           <div class="card-action">
             <a href="https://www.politize.com.br/comissoes-parlamentares-o-que-sao/" class="waves-effect waves-light btn">CLIQUE AQUI</a>
@@ -157,13 +146,15 @@
         </div>
       </article>
 
-      <article class="col s12 l6 xl3">
+      <article class="col s12 l6">
         <div class="card card hoverable cyan darken-2">
           <div class="card-image">
             <img src="./imagem/cifrao-carimbo (1).jpg">
           </div>
           <div class="card-content white-text ">
-            <p>Você conhece qual é o teto salarial do funcionalismo público? <br> Entenda mais sobre os "Super salários" no link abaixo.</p>
+            <p>Você sabe qual é o teto salarial do funcionalismo público?<br></p>
+            <p>Saiba mais clicando no link abaixo</p>
+            
           </div>
           <div class="card-action">
           <a href="https://www.politize.com.br/supersalarios-servidores-publicos/" class="waves-effect waves-light btn">CLIQUE AQUI</a>
@@ -264,6 +255,21 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/global.js"></script>
+
+  <!--Init carousel-->
+  
+  <script>
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true
+    }, setTimeout(autoplay, 4500));
+
+    function autoplay() {
+      $('.carousel').carousel('next');
+      setTimeout(autoplay, 4500);
+    }
+  </script>
+  <!--Fim init Carousel-->
+
 
   <!--Init menu-mobile-->
   <script>
